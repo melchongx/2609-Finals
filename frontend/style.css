@@ -11,6 +11,8 @@ body {
     background-size:cover;
     background-attachment: fixed;
 }
+
+
 header {       /*START OF HEADER CSS*/
     width: 100%;
     display: flex;
@@ -96,6 +98,8 @@ footer img {
     opacity: 1;
     transition: opacity 0.1s linear;
 }   /*END OF HEADER CSS*/
+
+
 .homeContent {    /*HOME PAGE CSS*/
     display: flex;
     margin-top: 4%;
@@ -104,28 +108,43 @@ footer img {
     font-size: 12vw;
     text-align: center;
 }
+
+
 .loginContent {    /*START OF LOGIN PAGE CSS*/
     display: flex;
     justify-content: center;
 }                
 .loginBox {
-    display: flex;
     width: 50%;
     height: 60vh;
+    padding: 1%;
     border-radius: 10px;
     background-color: floralwhite;
 }
-form {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin: 1%;
-    width: 100% ;
+.login {
+    padding: 2%;
+    padding-top: 7%;
+    margin: 2%;
 }
-input {
-    width: 85%;
-    height: 1.5em;
+.login label {
+    font-weight: bold;
+    font-size: 1.5em;
 }
+.login input {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: 1.5em;
+    height: 2em;
+}
+.login button {
+    width: 15%;
+    height: 10%;
+    color: #131211;
+    text-decoration-color: antiquewhite;
+}
+
+
 .storiesContent {         /*START OF STORIES CSS*/
     padding: 2% 10%;
     display: flex;
