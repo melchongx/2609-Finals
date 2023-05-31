@@ -23,12 +23,7 @@
 			<h4><b><center>MEMOS</center></b></h4>
 		</div></a>
     </div>
-	<footer>
-		<img src="../resources/email.png">
-		<img src="../resources/linkedin.png">
-		<img src="../resources/meta.png">
-		<img src="../resources/twitter-sign.png">
-	</footer>
+	<?php include_once '..//backend//footer.php';  ?>
 </body>
 
 </html>
