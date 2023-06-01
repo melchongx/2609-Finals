@@ -1,8 +1,8 @@
 <?php
 
-$con = mysqli_connect("localhost","root","","blog");
+$conn = mysqli_connect("localhost","root","","blog");
 
-if(!$con){
+if(!$conn){
     die('Connection Failed'. mysqli_connect_error());
 }
 

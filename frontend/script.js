@@ -14,6 +14,9 @@ function hoverOffStories() {
     let element = document.getElementById("storiesSubULID");
     element.classList.remove("storiesSubUL-vis");
 }
+function toHomePage() {
+    window.location.assign("home.php");
+}
 function toSignupPage() {
     window.location.assign("signup.php");
 }

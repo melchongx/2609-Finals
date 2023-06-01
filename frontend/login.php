@@ -12,7 +12,7 @@
 	<div class="loginContent">
         <div class="loginBox">
 			<center><h1>Login</h1></center>
-            <form class="login">
+            <form class="login" action="../backend/login.php"method="POST">
 				<label for="userName">Username</label>
 				<input type="text" id="userName" name="userName">
 				<label for="passWord">Password</label>
@@ -22,7 +22,7 @@
 				<hr>
 				<span>
 					<center>
-					<button type="submit">Submit</button> or 
+					<button type="submit" name="submit">Submit</button> or 
 					<button type="button" onclick="toSignupPage()">Sign Up</button>
 					</center>
 				</span>

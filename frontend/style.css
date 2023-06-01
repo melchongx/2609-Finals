@@ -241,3 +241,31 @@ footer img {
     text-decoration: underline;
     color:#ffce10
 }
+
+
+.settingsContent {    /*START OF settings PAGE CSS*/
+    display: flex;
+    justify-content: center;
+}                
+.settingsBox {
+    width: 50%;
+    height: 60vh;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: floralwhite;
+    justify-content: center;
+}
+.settingsBox button {
+    background-color: #ffce10; /* Green */
+  border: 1px solid rgb(158, 158, 158);
+  color: black;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  margin-top: 11%;
+}

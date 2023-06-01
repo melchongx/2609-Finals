@@ -4,8 +4,13 @@
 			<ul>
 				<a href="home.php"><li>Home</li></a>
 				<a href="stories.php" onmouseover="hoverOnStories()" ><li>Stories</li></a>
-				<a href="aboutus.php"><li>About Us</li></a>
-				<a href="login.php"><li>Login</li></a>
+				<?php
+                    if (isset($_SESSION["useruid"])) {
+                        echo '<a href="settings.php"><li>Settings</li></a>';
+                    } else {
+                        echo '<a href="login.php"><li>Login</li></a>';
+                    }
+                ?>
 			</ul>
 		</nav>
 		<hr>
@@ -13,8 +18,8 @@
 	<hr class="headerLine" id="headerHrID">
 	<div id="storiesSubULID" class="storiesSubUL" onmouseover="hoverOnStories()" onmouseout="hoverOffStories()"> <!-- sublist for stories -->
 		<ul>
-			<a class="subUL" href="news.php"><li>News</li></a>
-			<a class="subUL" href="sports.php"><li>Sports</li></a>
-			<a class="subUL" href="memos.php"><li>Memos</li></a>
+			<a class="subUL" href="stories.php"><li>News</li></a>
+			<a class="subUL" href="stories.php"><li>Sports</li></a>
+			<a class="subUL" href="stories.php"><li>Memos</li></a>
 		</ul>
 	</div>
